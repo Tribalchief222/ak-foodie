@@ -1,0 +1,33 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    margin-top: 6rem;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(1deg, rgba(255,237,237,0.85) 0%, rgba(255,255,255,0) 14rem);
+    border-top: 1px solid black;
+    padding: 2rem 0;
+}
+.container span{
+    font-weight: bold;
+    color: var(--themeRed);
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+.logo span{
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: black;
+}
+.social{
+    display: flex;
+    gap: 1rem;
+}
+.social>*{
+    fill: var(--themeRed);
+}
