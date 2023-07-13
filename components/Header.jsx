@@ -24,7 +24,7 @@ const Header = () => {
       {/* Menu side */}
       <ul className={css.menu}>
         <li>
-          <a href="/">Home</a>
+          <Link href="/">Home</Link>
         </li>
         <li>Menu</li>
         <li>Contact</li>

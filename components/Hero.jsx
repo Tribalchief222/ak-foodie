@@ -4,7 +4,7 @@ import Image from "next/image";
 import Cherry from "../assets/Cherry.png";
 import HeroImage from '../assets/HeroImage.png'
 import { UilPhone  } from "@iconscout/react-unicons";
-import Pizza1 from '../assets/p1.jpg';
+import Pizza1 from '../assets/cooking.png';
 
 const Hero = () => {
   return (

@@ -61,11 +61,11 @@ export default function Orders({ order }) {
           </div>
 
           <div className={css.status}>
-            <Image src={Cooking} width={50} height={50} />
+            <Image alt='pic' src={Cooking} width={50} height={50} />
             <span>Cooking</span>
             {order.status === 1 && (
                 <div className={css.spinner}>
-                    <Image src={Spinner} />
+                    <Image alt='pic' src={Spinner} />
                 </div>
             )}
 
@@ -75,11 +75,11 @@ export default function Orders({ order }) {
           </div>
 
           <div className={css.status}>
-            <Image src={Onway} width={50} height={50} />
+            <Image alt='pic' src={Onway} width={50} height={50} />
             <span>OnWay</span>
             {order.status === 2 && (
                 <div className={css.spinner}>
-                    <Image src={Spinner} />
+                    <Image alt='pic' src={Spinner} />
                 </div>
             )}
             {order.status> 2 && (
@@ -92,7 +92,7 @@ export default function Orders({ order }) {
             <span>Delivered</span>
             {order.status === 3 && (
                 <div className={css.spinner}>
-                    <Image src={Spinner} />
+                    <Image alt='pic' src={Spinner} />
                 </div>
             )}
             {order.status> 3 && (
